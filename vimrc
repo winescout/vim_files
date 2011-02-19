@@ -24,8 +24,9 @@ let g:mapleader = ","
 "colors
 "set background=light
 "colorscheme default
-set background=dark
-colorscheme vividchalk
+"set background=dark
+"colorscheme vividchalk
+colorscheme zenburn
 
 
 if has("gui_running")
@@ -64,6 +65,7 @@ set scrolloff=3 "when scroll down start at last 3 lines
 set hidden  "better handling of background buffers
 set backspace=indent,eol,start  " Make backspace delete lots of things
 set showcmd " show partial commands in bottom line
+:imap jj <Esc>
 
 "I rarely use folds 
 set nofoldenable 
@@ -225,14 +227,3 @@ let NERDTreeIgnore=['\.$', '\~$']
 let g:syntastic_enable_signs=1 "show markers next to each error/warning
 let g:syntastic_auto_loc_list=0 "don't pop up the Errors list automatically
 
-
-"load some work stuff
-if filereadable($HOME."/.vimrc_work")
-  source $HOME/.vimrc_work
-endif
-
-
-"Vim Wiki
-let g:vimwiki_list = [{'path': '~/Dropbox/vimwiki/', 'path_html': '~/Dropbox/vimwiki_html/', 'auto_export': 1, 'html_header': '~/Dropbox/vimwiki_html/header.tpl'}]
-map <Leader>wh  :VimwikiAll2HTML<cr>
-map <Leader>wo  :!open ~/Dropbox/vimwiki_html/index.html<cr>
