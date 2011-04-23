@@ -16,6 +16,9 @@ behave xterm
 
 set mouse=a
 
+"Coffeescript
+let coffee_compile_on_save = 1
+
 "Set mapleader
 let mapleader = ","
 let g:mapleader = ","
@@ -167,6 +170,7 @@ vmap <leader>x :!tidy -q -i -xml<CR>
 
 " run selection in bash
 vmap <leader>rs :!bash <CR>
+vmap <leader>rr yPgv:!bash^M
 
 " mapping to search with Ack
 nnoremap <leader>a :Ack 
