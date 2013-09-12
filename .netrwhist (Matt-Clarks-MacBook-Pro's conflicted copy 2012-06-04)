@@ -1,0 +1,10 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =8
+let g:netrw_dirhist_1='/Users/mclark/Projects/sprig/sprig-production/app/assets/javascripts'
+let g:netrw_dirhist_2='/Users/mclark/Projects/notch8/shop_tab/fb_products'
+let g:netrw_dirhist_3='/Users/mclark/Projects/sprig/pgh-web/spec/requests/for_providers'
+let g:netrw_dirhist_4='/Users/mclark/Projects/sprig/pgh-web/spec/models'
+let g:netrw_dirhist_5='/Users/mclark/Projects/sprig/pgh-web/spec/requests/for_providers'
+let g:netrw_dirhist_6='/Users/mclark/Projects/sprig/pgh-web/app/views/employer_inquiries'
+let g:netrw_dirhist_7='/Users/mclark/Projects/notch8/cablingplus/app/decorators/controllers/refinery'
+let g:netrw_dirhist_8='/Users/mclark/Projects/sprig/pgh-web/app/controllers'

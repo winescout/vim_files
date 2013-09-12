@@ -1,0 +1,7 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =5
+let g:netrw_dirhist_1='/Users/r623551/Projects/web'
+let g:netrw_dirhist_2='/Users/r623551/Projects'
+let g:netrw_dirhist_3='/Users/r623551/Projects/provider_onboarding/lib/provider_onboarding'
+let g:netrw_dirhist_4='/Users/mclark/Projects/personal/llb/src/css'
+let g:netrw_dirhist_5='/Users/mclark/Projects/notch8/dather/public/javascripts/angular/controllers'

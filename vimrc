@@ -17,7 +17,8 @@ behave xterm
 set mouse=a
 
 "Coffeescript
-let coffee_compile_on_save = 1
+"don't need this with asset pipeline
+"let coffee_compile_on_save = 1
 
 "Set mapleader
 let mapleader = ","
@@ -70,8 +71,11 @@ set backspace=indent,eol,start  " Make backspace delete lots of things
 set showcmd " show partial commands in bottom line
 :imap jj <Esc>
 
-"I rarely use folds 
-set nofoldenable 
+"Folding
+set foldmethod=indent
+set foldnestmax=10  
+"set nofoldenable       
+set foldlevel=1       
 
 
 "set vim to use a central backup dir
@@ -138,7 +142,7 @@ set cedit=<C-Y>
 
 
 " Searching Stuff
-" I prever very magic (\v) search behavior
+" very magic (\v) search behavior
 nnoremap / /\v
 vnoremap / /\v
 set hlsearch "set hl search
@@ -230,4 +234,6 @@ let NERDTreeIgnore=['\.$', '\~$']
 "Syntastic
 let g:syntastic_enable_signs=1 "show markers next to each error/warning
 let g:syntastic_auto_loc_list=0 "don't pop up the Errors list automatically
+
+
 
